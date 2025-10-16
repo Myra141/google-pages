@@ -18,7 +18,7 @@
 Champ de saisie
 - < section> :
 Partie d’une page (groupe logique de contenu)
-- < h1>
+- < h1> permet de mettre du text
 
 ### Les style css
 - background-color :définit la couleur de fond de l’élément

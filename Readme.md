@@ -1,5 +1,5 @@
 # Google Home page
-## les commande utilisé pour realité le projet.
+## les commande utilisé pour realisé le projet.
 
 ### HTML 
 #### les balises utilisé on a:

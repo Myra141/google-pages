@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: O;
+    box-sizing: border-box;
+    outline: none;
+    
+}
+body{
+    margin: 50px;
+    height: 100vh;
+    background-color: #fff;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+.container{
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    font-family: system-ui,  'Segoe UI',  Arial, sans-serif;
+    max-width: 1440px;
+}
+.link a{
+    text-decoration: none;
+    color: #70757a;
+    margin: 15px;
+    font-size: 16px;
+    width: 200Px;
+    padding: 4px;
+    background-color: #FFFF;
+    border-radius: 5px;
+    
+}
+.omo:hover{
+   background-color: rgb(208, 207, 207);
+    cursor: pointer;
+    
+}
+
+nav{
+    text-align: right;
+    padding: 50px;
+    
+}
+.contenue{
+    text-align: center;
+    margin-top: 30px;
+}
+ 
+.mora{
+    color: #EA4335;
+}
+.momo{
+    color: #FBBC05;
+}
+.mira{
+    color: #34A853;
+}
+span{
+    color: #4285F4;
+}
+h1{
+    font-size: 120px;
+    font-weight: 800;
+}
+.head{
+    display: flex;
+    width: 60%;
+    margin-left: 20%;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #eceaea; 
+    font-weight: 800;
+    border-radius: 50px;
+}
+.head:hover{
+    border-color: #4a90f6;
+}
+input{
+    width: 90%;
+    height: 100%;
+    padding: 10px;
+    display: block;
+    border: none;
+    color: #202124;
+    font-size:  25px;
+    align-items: center;
+}
+.recherche{
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.But{
+    width: 12%;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    color: #202124;
+    font-weight: bold;
+    font-size: 10px;
+    font-weight: 800;
+}
+.Mari{
+    width: 12%;
+    padding: 7px;
+    border-radius: 20px;
+    border: none;
+    color: #202124;
+    font-weight: bold;
+    font-size: 10px;
+    font-weight: 800;
+}
+.But:hover{
+    background-color: #f1f3f4;
+    color: #34A853;
+    cursor: pointer;
+    box-shadow: 13px 3px 13px 3px rgba(164, 158, 158, 0.6)
+}
+.Mari:hover{
+    background-color: rgb(255, 255, 255);
+    color: #34A853;
+    cursor: pointer;
+    box-shadow: 13px 3px 13px 3px rgba(164, 158, 158, 0.6)
+}
+.test{
+    text-align: center;
+    color: rgb(82, 80, 80);
+    line-height: 1.5;
+}
+@media (max-width: 768px){
+    .container{
+        width: 100%;
+    }
+    .link{
+        text-align: center;
+    }
+    .contenue h1{
+      font-size: 70px;
+    }
+    input{
+        font-size: 15px;
+    }
+    .head{
+        width: 55%;
+        margin-left: 22%;
+    }
+    .But, .Mari{
+        width: 18%;
+    }
+}
+@media (max-width: 425px){
+     .container{
+        width: 100%;
+    }
+    .link{
+        text-align: center;
+    }
+    .contenue h1{
+      font-size: 60px;
+    }
+    .head{
+        width: 90%;
+        margin-left: 5%;
+    }
+    input{
+        font-size: 10px;
+    }
+    .But{
+        width: 40%;
+    }
+    .Mari{
+        width: 40%;
+    }
+}
